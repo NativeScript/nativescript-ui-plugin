@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page"
+  xmlns:ui="nativescript-ui-plugin">
+  <GridLayout>
+    <ui:Meme 
+      imageSource="~/images/nativescript.png" 
+      topText="ROCK"
+      bottomText="ROLL" />
+  </GridLayout>
+</Page>
