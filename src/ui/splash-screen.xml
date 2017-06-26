@@ -1,0 +1,9 @@
+<GridLayout rows="auto,*, auto"> 
+    <Label row="0" text="{{ topText }}" fontSize="64" textWrap="true" 
+        horizontalAlignment="center" verticalAlignment="top"></Label>
+        
+    <Image rowSpan="3" src="{{ imageSource }}" verticalAlignment="stretch"></Image>
+
+    <Label row="2" text="{{ bottomText }}" fontSize="64" textWrap="true" 
+        horizontalAlignment="center" verticalAlignment="bottom"></Label>
+</GridLayout>
