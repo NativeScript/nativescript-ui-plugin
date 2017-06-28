@@ -1,11 +1,11 @@
 import { Common } from './ui-plugin.common';
-import { SplashScreen } from './ui/splash-screen';
+import { MemeUI } from './ui/meme-ui';
 
 export class UiPlugin extends Common {
 
 }
 
-export class SplashScreen1 extends SplashScreen {
+export class Meme extends MemeUI {
 
 }
 

@@ -1,13 +1,13 @@
-import { Common } from './ui-plugin.common';
-import { SplashScreen } from './ui/splash-screen';
+// import { Common } from './ui-plugin.common';
+import { MemeUI } from './ui/meme-ui';
 
-export declare class UiPlugin extends Common {
-  // define your typings manually
-  // or..
-  // take the ios or android .d.ts files and copy/paste them here
-}
+// export declare class UiPlugin extends Common {
+//   // define your typings manually
+//   // or..
+//   // take the ios or android .d.ts files and copy/paste them here
+// }
 
-export declare class SplashScreen1 extends SplashScreen {
+export declare class Meme extends MemeUI {
   // define your typings manually
   // or..
   // take the ios or android .d.ts files and copy/paste them here

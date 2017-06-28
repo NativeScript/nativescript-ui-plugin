@@ -7,11 +7,11 @@ import { Color } from "tns-core-modules/color/color";
 
 let builder = require('tns-core-modules/ui/builder');
 
-export const topTextProperty = new Property<SplashScreen, string>({ name: "topText", defaultValue: undefined });
-export const bottomTextProperty = new Property<SplashScreen, string>({ name: "bottomText", defaultValue: undefined });
-export const imageSourceProperty = new Property<SplashScreen, string>({ name: "imageSource", defaultValue: undefined });
+export const topTextProperty = new Property<MemeUI, string>({ name: "topText", defaultValue: undefined });
+export const bottomTextProperty = new Property<MemeUI, string>({ name: "bottomText", defaultValue: undefined });
+export const imageSourceProperty = new Property<MemeUI, string>({ name: "imageSource", defaultValue: undefined });
 
-export class SplashScreen extends GridLayout {
+export class MemeUI extends GridLayout {
     public text: string;
     public overlayColor: Color;
     public imageSource: string;
@@ -26,6 +26,6 @@ export class SplashScreen extends GridLayout {
     }
 }
 
-imageSourceProperty.register(SplashScreen);
-topTextProperty.register(SplashScreen);
-bottomTextProperty.register(SplashScreen);
+imageSourceProperty.register(MemeUI);
+topTextProperty.register(MemeUI);
+bottomTextProperty.register(MemeUI);
