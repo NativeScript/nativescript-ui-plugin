@@ -1,9 +1,6 @@
 import { Observable } from 'tns-core-modules/data/observable';
-import * as app from 'tns-core-modules/application';
-import * as dialogs from 'tns-core-modules/ui/dialogs';
-import { View, Property, backgroundInternalProperty, backgroundColorProperty } from "tns-core-modules/ui/core/view";
+import { View, Property } from "tns-core-modules/ui/core/view";
 import { GridLayout } from 'tns-core-modules/ui/layouts/grid-layout';
-import { Color } from "tns-core-modules/color/color";
 
 let builder = require('tns-core-modules/ui/builder');
 
@@ -12,10 +9,6 @@ export const bottomTextProperty = new Property<Meme, string>({ name: "bottomText
 export const imageSourceProperty = new Property<Meme, string>({ name: "imageSource", defaultValue: undefined });
 
 export class Meme extends GridLayout {
-    public text: string;
-    public overlayColor: Color;
-    public imageSource: string;
-
     constructor() {
         super();
 
