@@ -1,30 +1,20 @@
-# Your Plugin Name
+# UI Plugin example (Meme generator component)
 
-Add your plugin badges here. See [nativescript-urlhandler](https://github.com/hypery2k/nativescript-urlhandler) for example.
-
-Then describe what's the purpose of your plugin. 
+This plugin shows how you can build UI plugin using NS APIs only. A simple Meme generator component is given as example.
 
 In case you develop UI plugin, this is where you can add some screenshots.
-
-## (Optional) Prerequisites / Requirements
-
-Describe the prerequisites that the user need to have installed before using your plugin. See [nativescript-firebase plugin](https://github.com/eddyverbruggen/nativescript-plugin-firebase) for example.
 
 ## Installation
 
 Describe your plugin installation steps. Ideally it would be something like:
 
 ```javascript
-tns plugin add <your-plugin-name>
+tns plugin add nativescript-ui-plugin
 ```
 
 ## Usage 
 
-Describe any usage specifics for your plugin. Give examples for Android, iOS, Angular if needed. See [nativescript-drop-down](https://www.npmjs.com/package/nativescript-drop-down) for example.
-	
-	```javascript
-    Usage code snippets here
-    ```)
+You need to add `xmlns:ui="nativescript-ui-plugin"` to your page tag, and then simply use `<ui:Meme />` in order to add the widget to your page.
 
 ## API
 
@@ -32,8 +22,9 @@ Describe your plugin methods and properties here. See [nativescript-feedback](ht
     
 | Property | Default | Description |
 | --- | --- | --- |
-| some property | property default value | property description, default values, etc.. |
-| another property | property default value | property description, default values, etc.. |
+| imageSource | "" | used to set the src of the image to show as Meme background |
+| topText | "" | sets the text at the Top of the Meme |
+| bottomText | "" | sets the text at the Bottom of the Meme |
     
 ## License
 
