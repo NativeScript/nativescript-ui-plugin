@@ -2,7 +2,7 @@
     "name": "nativescript-ui-plugin",
     "version": "1.0.0",
     "description": "Your awesome NativeScript plugin.",
-    "main": "ui-plugin",
+    "main": "meme",
     "typings": "index.d.ts",
     "nativescript": {
         "platforms": {
