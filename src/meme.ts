@@ -17,6 +17,10 @@ export class Meme extends GridLayout {
 
         this.addChild(innerComponent);
     }
+
+    public greet() {
+        return "Hello, NS";
+    }
 }
 
 imageSourceProperty.register(Meme);
