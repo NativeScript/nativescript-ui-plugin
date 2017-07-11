@@ -5,4 +5,5 @@ export declare const bottomTextProperty: Property<Meme, string>;
 export declare const imageSourceProperty: Property<Meme, string>;
 export declare class Meme extends GridLayout {
     constructor();
+    greet(): string;
 }
