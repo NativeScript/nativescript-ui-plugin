@@ -9,12 +9,12 @@ In case you develop UI plugin, this is where you can add some screenshots.
 Describe your plugin installation steps. Ideally it would be something like:
 
 ```javascript
-tns plugin add nativescript-ui-plugin
+tns plugin add <your-plugin-name>
 ```
 
 ## Usage 
 
-You need to add `xmlns:ui="nativescript-ui-plugin"` to your page tag, and then simply use `<ui:Meme />` in order to add the widget to your page.
+You need to add `xmlns:ui="<your-plugin-name>"` to your page tag, and then simply use `<ui:Meme />` in order to add the widget to your page.
 
 ## API
 
